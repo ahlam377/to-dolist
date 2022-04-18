@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lobster&family=Montserrat:wght@100;200&family=Pacifico&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&display=swap');
+
+html{
+    height: 100vh;
+    min-width: 600px;
+    background: url(images/img-background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.part1 {
+    display: flex;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    flex-direction: column;
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    padding:1.5rem 0;
+}
+.main{
+    padding: 20px;
+}
+form{
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+
+}
+input[type="text"] {
+    height: 30px;
+    outline: 0;
+    border: 3px solid hotpink;
+    font-size: 1rem;
+    flex-grow: 1;
+}
+
+button {
+font-size: 1.5rem;
+outline: 0;
+background-color: rgb(240, 166, 203);
+border: none;
+}
+
+button:hover {
+    color: #595959;
+
+}
+.todo-list {
+    
+    background-color:rgb(240, 166, 203);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 25px;
+    height: 100%;
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey; 
+    padding: 15px 0;
+    font-size: 1rem;
+    color: #595959;
+}
+
+i {
+    pointer-events: none;
+}
+
+.todo-item {
+    flex-grow: 1;
+}
+.clearAll{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 3px;
+    cursor:pointer;
+    font-size: 0.9rem;
+}
+.clearAll:hover{
+    color: #595959;
+}
+
+
+
+
